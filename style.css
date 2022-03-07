@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: url("/assets/img1.png");
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 1px solid gray;
+}
+
+#welcome{
+  padding-top: 100px;
+}
+
+#p1{
+    font-size: 20px ;
+}
+
+.btn{
+    background-color:#333 ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color:white;
+    color: #333;
+}
+
+.about{
+    text-align: center;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-around;
+}
+
+#cta-content1{
+    padding: 50px 200px 150px;
+    font-size: 20px;
+}
+
+#cta-content2{
+    padding: 50px 310px 50px 50px;
+    font-size: 20px;
+}
+
+#cta-heading{
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #333;
+    padding: 20px;
+
+}
+
+.services img{
+    height: 200px;
+    width: 150px;
+   
+}
+
+.wdv{
+    /* border: 1px solid red; */
+    width:300px ;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+}
+
